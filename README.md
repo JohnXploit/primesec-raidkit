@@ -37,7 +37,7 @@ Works without needing bot permissions on the target server.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOURUSERNAME/primesec-raidkit.git
+git clone https://github.com/JohnXploit/primesec-raidkit.git
 cd primesec-raidkit
 ```
 
