@@ -1,6 +1,5 @@
 
 <div align="center">
-  <img src="https://cdn.discordapp.com/discovery-splashes/1414146515139559495/d92e24322261dd55b79e048ea49f794c.jpg?size=500&format=auto" width="900" alt="PRIMESEC RAIDKIT">
   <h1>PRIMESEC // RAIDKIT</h1>
   <p><strong>Advanced User-Installable Discord Raid Bot • Silent Payload Delivery System 2026</strong></p>
 
