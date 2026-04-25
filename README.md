@@ -1,5 +1,6 @@
 
 <div align="center">
+  <img src="https://cdn.discordapp.com/discovery-splashes/1414146515139559495/d92e24322261dd55b79e048ea49f794c.jpg?size=500&format=auto" width="900" alt="PRIMESEC RAIDKIT">
   <h1>PRIMESEC // RAIDKIT</h1>
   <p><strong>Advanced User-Installable Discord Raid Bot • Silent Payload Delivery System 2026</strong></p>
 
@@ -13,22 +14,23 @@
 
 ## ⚠️ PRIMESEC RAIDKIT — USER INSTALLABLE DISCORD RAID BOT
 
-**PRIMESEC RAIDKIT** is a powerful, lightweight, **user-installable** Discord raid tool for fast and silent payload deployment.
+**PRIMESEC RAIDKIT** is a powerful, lightweight, **user-installable** Discord raid tool designed for fast and silent payload deployment.
 
 Works without needing bot permissions on the target server.
 
 ### 🔥 KEY FEATURES
-- **`/primeraid`** — Official PRIMESEC signature raid (5x payload)
-- **`/customraid [message] [count]`** — Deploy your own custom payload (1-5 strikes)
+- **`/primeraid`** — Official PRIMESEC signature raid (5x high-impact payload)
+- **`/customraid [message] [count]`** — Deploy your own custom raid message (1-5 strikes)
 - **`/say [message]`** — Speak through the bot cleanly
-- **`/ping`** — Real-time system diagnostics
+- **`/ping`** — Real-time latency + uptime diagnostics
 - **`/help`** — Full command manual
-- **`/join`** — Access to PRIMESEC
+- **`/join`** — Access to PRIMESEC network
 
-**Built-in Safety:**
-- Per-user cooldown
-- Payload length limit (1900 chars)
-- Auto-reconnect + keep-alive
+**Built-in Protections:**
+- Per-user cooldown system
+- Payload length protection (1900 char limit)
+- Auto-reconnect + persistent keep-alive
+- Minimal detection footprint
 
 ---
 
@@ -40,32 +42,28 @@ git clone https://github.com/YOURUSERNAME/primesec-raidkit.git
 cd primesec-raidkit
 ```
 
-### 2. Add Your Discord Token
-1. Open the `.env` file (it should already exist)
-2. Edit it and add your **Discord User Token** like this:
+### 2. Add Your Bot Token
+1. Open the `.env` file
+2. Paste your **Discord Bot Token** like this:
 
 ```env
-DISCORD_TOKEN=your_discord_user_token_here
+DISCORD_TOKEN=your_bot_token_here
 ```
 
-> **How to get your User Token:**
-> - Open Discord in your browser (discord.com)
-> - Press `Ctrl + Shift + I` to open Developer Tools
-> - Go to the **Application** tab (or **Storage** → **Local Storage**)
-> - Find `https://discord.com` and copy the value of the `token` key (it starts with `M` and is very long)
-> - Paste it inside the `.env` file (remove any quotes if present)
+> **How to get your Bot Token:**
+> 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications)
+> 2. Create a new Application (or select existing one)
+> 3. Go to **Bot** section → Click **Reset Token** (or Copy Token)
+> 4. Copy the token and paste it into the `.env` file
 
-**⚠️ Never share your token with anyone.**
+**⚠️ Important:** Keep your bot token private. Never share it publicly.
 
 ### 3. Run the Bot
 ```bash
 python main.py
 ```
 
-The script will:
-- Automatically install required packages (`discord.py`, `python-dotenv`)
-- Start the bot
-- Keep it alive 24/7
+The launcher will automatically install required dependencies (`discord.py`, `python-dotenv`) and start the bot with keep-alive.
 
 ---
 
@@ -85,19 +83,17 @@ CUSTOM_RAID_MAX = 5
 RAID_COOLDOWN = 1
 ```
 
-**Fully customizable** — Change the raid message, count, cooldown, and appearance as you like.
-
 ---
 
 ## 🔗 Join PRIMESEC
 ```
 https://discord.gg/primesec-1414146515139559495
 ```
-
 ---
 
-*© 2026 Primesec Ops - Raid-Bot*  
+*© 2026 Primesec Ops - Raid-bot*  
 *Licensed for educational/disruption research only*  
-*Darkweb verified: primesec.toolkits*
+*Darkweb verified: primesec.toolkits*  
 
 ---
+
